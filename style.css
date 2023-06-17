@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+#nav-bar {
+  background-color: #1e012d;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  float: right;
+  border-radius: 5px;
+}
+.nav-link:hover {
+  background-color: rgb(147, 243, 225);
+  transition: 0.8s;
+  border-radius: 3px;
+}
+.navbar {
+  padding: 0 !important;
+}
+navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars {
+  color: #fff;
+  font-size: 30p !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+#main {
+  text-align: center;
+  background-color: #650ebcb9;
+  color: #fff;
+  padding-top: 5%;
+}
+.container h1 img {
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+#features1 {
+  text-align: center;
+  padding: 10% 15%;
+}
+#features {
+  text-align: center;
+  padding: 10% 15%;
+  background-image: url("https://etimg.etb2bimg.com/photo/96010382.cms");
+}
+.features1 h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.features h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.title::before {
+  content: "";
+  background: #7b1798;
+  height: 5px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translatey(63px);
+}
+.title::after {
+  content: "";
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translatey(8px);
+}
+#features .btn-primary {
+  box-shadow: none;
+  padding: 10px 25px;
+  border: none;
+  align-content: center;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#action {
+  background-color: #31326f;
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+}
+.main {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 10px 0px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#footer {
+  background-color: #31326f;
+  color: #fff;
+  padding: 4% 25%;
+  text-align: center;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+#btnVC {
+  background-color: red;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#btnTH {
+  background-color: red;
+  animation-name: example;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
